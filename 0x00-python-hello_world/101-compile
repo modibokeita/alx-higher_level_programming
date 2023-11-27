@@ -1,0 +1,6 @@
+#!/bin/bash
+filename=$(basename -- "$PYFILE")
+filename_noext="${filename%.*}"
+echo "Compiling $PYFILE ..."
+python3 -m py_compile "$PYFILE"
+
