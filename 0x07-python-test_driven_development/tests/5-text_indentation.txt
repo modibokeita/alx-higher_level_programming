@@ -1,0 +1,15 @@
+'-text_indentation' module
+
+Import function
+
+	>>> text_indentation = __import__('5-text_indentation').text_indentation
+
+	>>> text_indentation("""Hello, what's up? how are you doing. i'm happy to see you: well now i hope you're ok""")
+	Hello, what's up?
+	<BLANKLINE>
+	how are you doing.
+	<BLANKLINE>
+	i'm happy to see you:
+	<BLANKLINE>
+	well now i hope you're ok
+

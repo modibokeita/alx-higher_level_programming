@@ -1,0 +1,32 @@
+'-say_my_name' module
+doctest test for say_my_name function
+
+Import the function:
+
+   >>> say_my_name =  __import__('3-say_my_name').say_my_name
+   
+   >>> say_my_name("John", "Doe")
+    John Doe
+   
+   >>> say_my_name("5", "Keita")
+   Traceback (most recent call last):
+   TypeError: firt name must be a string
+
+
+   >>> say_my_name("Modibo", "6")   
+   Traceback (most recent call last):
+   TypeError: last name must be a string
+
+
+   >>> say_my_name("", "Keita")   
+   Traceback (most recent call last):
+   TypeError: firt name must not be an empty
+
+
+   >>> say_my_name("Modibo", "")   
+   Traceback (most recent call last):
+   TypeError: last name must not be an empty
+
+   >>> say_my_name("", "") 
+   Traceback (most recent call last):
+   TypeError: fist or last name must not be an empty
