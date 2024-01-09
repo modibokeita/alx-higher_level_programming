@@ -17,5 +17,4 @@ def read_file(filename=""):
         loop over the the file and print
         the each line in the file
         """
-        for line in f:
-            print(line, end="")
+        print(f.read())
