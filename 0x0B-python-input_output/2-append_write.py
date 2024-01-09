@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-"""define a function that 
+"""define a function that
 append text to a file
 """
 
