@@ -1,4 +1,2 @@
--- a script that lists all the
--- tables of a database in mysql
-USE `mysql`;
+-- lists all the  tables in my database
 SHOW TABLES;
